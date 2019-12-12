@@ -30,7 +30,7 @@ instructions = data[data.length - 1]
 let room = new Room(dimension, dirtPosition)
 let hoover = new Hoover(position, instructions)
 
-//cleans the room using
+//cleans the room
 hoover.clean(room);
 
 //outputs coordinates of hoover and number of patches cleaned up on STDOUT

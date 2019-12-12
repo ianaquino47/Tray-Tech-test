@@ -1,5 +1,3 @@
-const Room = require('./Room.js');
-
 class Hoover {
     constructor(position, instructions){
         this.hooverPosition = {x: position[0], y: position[1]};
@@ -25,7 +23,7 @@ class Hoover {
         } else if (direction == "W" && this.hooverPosition.x > 0) {
             this.hooverPosition.x -= 1;
         } else {
-            console.log("Invalid direction");
+            "Invalid direction";
         }
     }
 

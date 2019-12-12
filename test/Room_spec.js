@@ -1,7 +1,5 @@
 const Room = require('../src/Room.js');
 let assert = require('chai').assert;
-let expect = require('chai').expect;
-let should = require('chai').should();
 
 describe('Room', function () {
     describe('#cleanPatch', function (){
@@ -12,6 +10,5 @@ describe('Room', function () {
             room.cleanPatch(dirtyPatch);
             assert.isNotEmpty(room.cleanedPatches);
         });
-
     })
 });
